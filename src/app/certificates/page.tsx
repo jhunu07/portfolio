@@ -45,7 +45,7 @@ export default function CertificatesPage() {
       />
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
         {certificates.map((cert, index) => (
-          <Card key={index} className="flex flex-col overflow-hidden shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg">
+          <Card key={index} className="flex flex-col overflow-hidden shadow-lg rounded-lg transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-[1.03]">
             <div className="relative w-full h-48 bg-muted flex items-center justify-center">
               <Image
                 src={cert.imageUrl}

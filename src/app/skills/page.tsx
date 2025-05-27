@@ -3,7 +3,7 @@ import { PageTitle } from '@/components/shared/page-title';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Progress } from '@/components/ui/progress';
 import { Badge } from '@/components/ui/badge';
-import { Zap, Users, Brain, Code } from 'lucide-react';
+import { Zap, Users, Code, Server, Database, Wrench } from 'lucide-react';
 
 interface Skill {
   name: string;
@@ -48,9 +48,9 @@ const skillsData: Skill[] = [
 const skillCategories = [
   { name: 'Programming Languages', icon: <Code className="h-6 w-6 mr-2 text-primary" /> },
   { name: 'Frontend Technologies', icon: <Zap className="h-6 w-6 mr-2 text-primary" /> },
-  { name: 'Backend Technologies', icon: <Zap className="h-6 w-6 mr-2 text-primary" /> },
-  { name: 'Databases', icon: <Zap className="h-6 w-6 mr-2 text-primary" /> },
-  { name: 'Tools & Platforms', icon: <Zap className="h-6 w-6 mr-2 text-primary" /> },
+  { name: 'Backend Technologies', icon: <Server className="h-6 w-6 mr-2 text-primary" /> },
+  { name: 'Databases', icon: <Database className="h-6 w-6 mr-2 text-primary" /> },
+  { name: 'Tools & Platforms', icon: <Wrench className="h-6 w-6 mr-2 text-primary" /> },
   { name: 'Soft Skills', icon: <Users className="h-6 w-6 mr-2 text-primary" /> },
 ];
 
@@ -74,9 +74,9 @@ export default function SkillsPage() {
                   {category.name}
                 </CardTitle>
               </CardHeader>
-              <CardContent className="grid md:grid-cols-2 gap-x-8 gap-y-6">
+              <CardContent className="grid md:grid-cols-2 gap-x-8 gap-y-4 p-4">
                 {categorySkills.map((skill) => (
-                  <div key={skill.name}>
+                  <div key={skill.name} className="p-3 rounded-md transition-colors duration-200 hover:bg-muted">
                     <div className="flex justify-between items-center mb-1">
                       <h3 className="text-lg font-semibold text-foreground">{skill.name}</h3>
                       <Badge variant="outline" className="text-sm">{skill.level}%</Badge>

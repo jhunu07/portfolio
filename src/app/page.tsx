@@ -4,7 +4,7 @@ import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { PageTitle } from "@/components/shared/page-title";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Briefcase, FileText, Award, /*Wand2,*/ Cpu, Mail } from "lucide-react"; // Wand2 removed
+import { ArrowRight, Briefcase, FileText, Award, Cpu, Mail } from "lucide-react";
 
 const featureCards = [
   {
@@ -35,14 +35,6 @@ const featureCards = [
     icon: <Award className="h-8 w-8 text-primary mb-4" />,
     aiHint: "award certificate"
   },
-  // Removed AI Personal Statement Refiner card
-  // {
-  //   title: "AI Personal Statement Refiner",
-  //   description: "Use an AI tool to enhance your personal statements.",
-  //   href: "/personal-statement",
-  //   icon: <Wand2 className="h-8 w-8 text-primary mb-4" />,
-  //   aiHint: "robot writing"
-  // },
 ];
 
 export default function HomePage() {
@@ -101,7 +93,7 @@ export default function HomePage() {
         <PageTitle title="Explore My Portfolio" subtitle="Discover my projects, skills, and more." />
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8">
           {featureCards.map((card) => (
-            <Card key={card.title} className="flex flex-col shadow-lg hover:shadow-xl transition-shadow duration-300 rounded-lg overflow-hidden">
+            <Card key={card.title} className="flex flex-col shadow-lg rounded-lg overflow-hidden transition-all duration-300 ease-in-out hover:shadow-xl hover:scale-[1.03]">
               <CardHeader className="items-center text-center">
                 {card.icon}
                 <CardTitle className="font-heading text-2xl">{card.title}</CardTitle>
