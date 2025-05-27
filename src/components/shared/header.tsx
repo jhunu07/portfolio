@@ -15,7 +15,7 @@ const navItems = [
   { href: '/resume', label: 'Resume' },
   { href: '/skills', label: 'Skills' },
   { href: '/certificates', label: 'Certificates' },
-  { href: '/personal-statement', label: 'AI Refiner' },
+  // { href: '/personal-statement', label: 'AI Refiner' }, // Removed AI Refiner link
   { href: '/contact', label: 'Contact' },
 ];
 

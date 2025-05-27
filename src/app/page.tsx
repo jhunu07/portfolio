@@ -4,7 +4,7 @@ import { SectionWrapper } from "@/components/shared/section-wrapper";
 import { PageTitle } from "@/components/shared/page-title";
 import Image from "next/image";
 import Link from "next/link";
-import { ArrowRight, Briefcase, FileText, Award, Wand2, Cpu, Mail } from "lucide-react";
+import { ArrowRight, Briefcase, FileText, Award, /*Wand2,*/ Cpu, Mail } from "lucide-react"; // Wand2 removed
 
 const featureCards = [
   {
@@ -35,13 +35,14 @@ const featureCards = [
     icon: <Award className="h-8 w-8 text-primary mb-4" />,
     aiHint: "award certificate"
   },
-  {
-    title: "AI Personal Statement Refiner",
-    description: "Use an AI tool to enhance your personal statements.",
-    href: "/personal-statement",
-    icon: <Wand2 className="h-8 w-8 text-primary mb-4" />,
-    aiHint: "robot writing"
-  },
+  // Removed AI Personal Statement Refiner card
+  // {
+  //   title: "AI Personal Statement Refiner",
+  //   description: "Use an AI tool to enhance your personal statements.",
+  //   href: "/personal-statement",
+  //   icon: <Wand2 className="h-8 w-8 text-primary mb-4" />,
+  //   aiHint: "robot writing"
+  // },
 ];
 
 export default function HomePage() {
