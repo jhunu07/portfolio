@@ -45,10 +45,10 @@ export default function HomePage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <div>
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-heading font-extrabold text-foreground mb-6 leading-tight">
-              Hello, I&apos;m <span className="text-primary">Your Name</span>
+              Hello, I&apos;m <span className="text-primary">Jhunnu kumar</span>
             </h1>
             <p className="text-lg sm:text-xl text-muted-foreground mb-8 max-w-xl">
-              A passionate [Your Profession/Focus, e.g., Full Stack Developer, UI/UX Designer] dedicated to creating impactful digital experiences. Welcome to my personal showcase.
+              A passionate  Fronted Developer dedicated to creating impactful digital experiences. Welcome to my personal showcase.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button asChild size="lg" className="shadow-lg hover:shadow-xl transition-shadow">
@@ -82,8 +82,13 @@ export default function HomePage() {
         <Card className="max-w-3xl mx-auto shadow-xl">
           <CardContent className="p-8">
             <p className="text-muted-foreground text-lg leading-relaxed">
-              I am a [Your Profession/Focus] with a strong passion for [Your Interests/Specializations, e.g., building scalable web applications, designing intuitive user interfaces]. With [X] years of experience, I have honed my skills in [Key Skill 1], [Key Skill 2], and [Key Skill 3]. I thrive in collaborative environments and am always eager to learn new technologies and take on challenging projects. My goal is to leverage my expertise to create innovative solutions that make a difference.
-            </p>
+            Motivated and results-driven Computer Engineering student with a strong academic foundation and practical
+experience in software development. Proficient in programming languages such as Python, and PHP, with handson experience in full-stack web development, database management (MySQL), and object-oriented
+programming (OOP). Skilled in using HTML, CSS, JavaScript, and frameworks like Laravel and Bootstrap for
+building dynamic, responsive web applications. . Eager to contribute to real-world projects in a collaborative
+environment and continuously expand technical and professional skills.
+              </p>
+      
           </CardContent>
         </Card>
       </SectionWrapper>

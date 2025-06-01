@@ -8,7 +8,7 @@ import Link from 'next/link';
 const experience = [
   {
     role: ' Web developer',
-    company: 'Tech Solutions Inc.',
+    company: 'TechOctanet Solutions Pvt ltd..',
     period: 'Jan 2020 - Present',
     description: 'Led development of key features for flagship products. Mentored junior engineers and improved code quality across teams. Specialized in [Your Specialization].',
     achievements: [
@@ -17,23 +17,13 @@ const experience = [
       'Implemented a new CI/CD pipeline, improving deployment frequency by 50%.',
     ],
   },
-  {
-    role: 'Software Developer',
-    company: 'Innovatech Ltd.',
-    period: 'Jun 2017 - Dec 2019',
-    description: 'Developed and maintained web applications using [Technologies]. Collaborated with cross-functional teams to deliver high-quality software.',
-     achievements: [
-      'Contributed to a 15% increase in user engagement by redesigning key UI components.',
-      'Developed a critical API integration for a major client.',
-    ],
-  },
 ];
 
 const education = [
   {
-    degree: 'Master of Science in Computer Science',
-    institution: 'University of Advanced Technology',
-    period: '2015 - 2017',
+    degree: 'B TECH. Computer Science',
+    institution: ' Marwadiuniversity University ',
+    period: '2022 - 2026',
     description: 'Focused on [Specialization, e.g., Artificial Intelligence, Distributed Systems]. Thesis on [Thesis Topic].',
   },
   {
