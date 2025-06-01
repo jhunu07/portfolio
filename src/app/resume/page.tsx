@@ -7,7 +7,7 @@ import Link from 'next/link';
 
 const experience = [
   {
-    role: 'Senior Software Engineer',
+    role: ' Web developer',
     company: 'Tech Solutions Inc.',
     period: 'Jan 2020 - Present',
     description: 'Led development of key features for flagship products. Mentored junior engineers and improved code quality across teams. Specialized in [Your Specialization].',
